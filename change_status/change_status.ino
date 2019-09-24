@@ -2,7 +2,7 @@
 int i = 0;
 
 void setup() {
-  // put your setup code here, to run once:
+  
   pinMode(2, INPUT);
   Serial.begin(9600);
   pinMode(LED_BUILTIN, OUTPUT);
@@ -10,6 +10,7 @@ void setup() {
 }
 
 void loop() {
+  
   change();
   i_status();
  
